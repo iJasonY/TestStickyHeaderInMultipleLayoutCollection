@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TopView.h
 //  TestStickyHeaderInMultipleLayoutCollection
 //
 //  Created by Jason on 16/3/31.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TopView : UIView
+@property (weak, nonatomic) IBOutlet UIButton *favBtn;
+@property (weak, nonatomic) IBOutlet UIButton *tripBtn;
 
 @end
-

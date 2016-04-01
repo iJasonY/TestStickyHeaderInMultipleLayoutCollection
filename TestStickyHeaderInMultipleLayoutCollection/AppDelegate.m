@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  TestStickyHeaderInMultipleLayoutCollection
 //
-//  Created by cncn-T091 on 16/3/31.
-//  Copyright © 2016年 cncn-T091. All rights reserved.
+//  Created by Jason on 16/3/31.
+//  Copyright © 2016年 Jason. All rights reserved.
 //
 
 #import "AppDelegate.h"

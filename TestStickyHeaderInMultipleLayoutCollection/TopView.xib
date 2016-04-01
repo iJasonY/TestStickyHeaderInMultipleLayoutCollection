@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="yI2-m7-OdL" customClass="TopView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="223"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personalBanner" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-aq-Lfa">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="223"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mz2-2u-abb">
+                    <rect key="frame" x="0.0" y="178" width="600" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gS-gY-Tf7">
+                            <rect key="frame" x="300" y="0.0" width="300" height="45"/>
+                            <state key="normal" title="行程">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o32-r5-ntV">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
+                            <state key="normal" title="收藏">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="3gS-gY-Tf7" firstAttribute="width" secondItem="o32-r5-ntV" secondAttribute="width" id="3OL-tZ-pcu"/>
+                        <constraint firstItem="o32-r5-ntV" firstAttribute="leading" secondItem="Mz2-2u-abb" secondAttribute="leading" id="3q8-C8-Es4"/>
+                        <constraint firstItem="3gS-gY-Tf7" firstAttribute="leading" secondItem="o32-r5-ntV" secondAttribute="trailing" id="4WN-DS-ahE"/>
+                        <constraint firstAttribute="trailing" secondItem="3gS-gY-Tf7" secondAttribute="trailing" id="FqP-vV-syB"/>
+                        <constraint firstItem="o32-r5-ntV" firstAttribute="top" secondItem="Mz2-2u-abb" secondAttribute="top" id="Rjc-ou-x7K"/>
+                        <constraint firstAttribute="bottom" secondItem="o32-r5-ntV" secondAttribute="bottom" id="UWk-jb-DHE"/>
+                        <constraint firstItem="3gS-gY-Tf7" firstAttribute="top" secondItem="Mz2-2u-abb" secondAttribute="top" id="bGp-Md-8LE"/>
+                        <constraint firstAttribute="height" constant="45" id="edc-d1-pCw"/>
+                        <constraint firstAttribute="bottom" secondItem="3gS-gY-Tf7" secondAttribute="bottom" id="sZo-wm-d6V"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Mz2-2u-abb" secondAttribute="trailing" id="1y3-co-Zx3"/>
+                <constraint firstItem="f1n-aq-Lfa" firstAttribute="top" secondItem="yI2-m7-OdL" secondAttribute="top" id="HIN-gL-ypR"/>
+                <constraint firstItem="Mz2-2u-abb" firstAttribute="leading" secondItem="yI2-m7-OdL" secondAttribute="leading" id="T27-2V-Vc7"/>
+                <constraint firstAttribute="trailing" secondItem="f1n-aq-Lfa" secondAttribute="trailing" id="Twy-vU-nJm"/>
+                <constraint firstAttribute="bottom" secondItem="Mz2-2u-abb" secondAttribute="bottom" id="okL-pe-pqI"/>
+                <constraint firstAttribute="bottom" secondItem="f1n-aq-Lfa" secondAttribute="bottom" id="qQE-4V-gb5"/>
+                <constraint firstItem="f1n-aq-Lfa" firstAttribute="leading" secondItem="yI2-m7-OdL" secondAttribute="leading" id="yDU-0S-Vsw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="favBtn" destination="o32-r5-ntV" id="prZ-hD-o9U"/>
+                <outlet property="tripBtn" destination="3gS-gY-Tf7" id="UwW-nB-V4Y"/>
+            </connections>
+            <point key="canvasLocation" x="697" y="-4.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="personalBanner" width="320" height="223"/>
+    </resources>
+</document>

@@ -15,6 +15,11 @@
 		97FD5A251CACED6300C6BC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FD5A231CACED6300C6BC3D /* LaunchScreen.storyboard */; };
 		97FD5A301CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD5A2F1CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollectionTests.m */; };
 		97FD5A3B1CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD5A3A1CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollectionUITests.m */; };
+		97FD5A4A1CACF2CD00C6BC3D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD5A491CACF2CD00C6BC3D /* CollectionViewController.m */; };
+		97FD5A4D1CACF88100C6BC3D /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD5A4C1CACF88100C6BC3D /* ViewUtils.m */; };
+		97FD5A521CACFD1100C6BC3D /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD5A501CACFD1100C6BC3D /* TopView.m */; };
+		97FD5A531CACFD1100C6BC3D /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97FD5A511CACFD1100C6BC3D /* TopView.xib */; };
+		97FD5A561CAD0B2F00C6BC3D /* DoubleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD5A551CAD0B2F00C6BC3D /* DoubleScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +41,9 @@
 
 /* Begin PBXFileReference section */
 		97FD5A121CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStickyHeaderInMultipleLayoutCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97FD5A161CACED6300C6BC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97FD5A181CACED6300C6BC3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		97FD5A191CACED6300C6BC3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97FD5A161CACED6300C6BC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97FD5A181CACED6300C6BC3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FD5A191CACED6300C6BC3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FD5A1B1CACED6300C6BC3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		97FD5A1C1CACED6300C6BC3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97FD5A1F1CACED6300C6BC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		97FD5A361CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStickyHeaderInMultipleLayoutCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FD5A3A1CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStickyHeaderInMultipleLayoutCollectionUITests.m; sourceTree = "<group>"; };
 		97FD5A3C1CACED6300C6BC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FD5A481CACF2CD00C6BC3D /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CollectionViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FD5A491CACF2CD00C6BC3D /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CollectionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97FD5A4B1CACF88100C6BC3D /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		97FD5A4C1CACF88100C6BC3D /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		97FD5A4E1CACF8B500C6BC3D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		97FD5A4F1CACFD1100C6BC3D /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		97FD5A501CACFD1100C6BC3D /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		97FD5A511CACFD1100C6BC3D /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		97FD5A541CAD0B2F00C6BC3D /* DoubleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DoubleScrollViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FD5A551CAD0B2F00C6BC3D /* DoubleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoubleScrollViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +116,19 @@
 		97FD5A141CACED6300C6BC3D /* TestStickyHeaderInMultipleLayoutCollection */ = {
 			isa = PBXGroup;
 			children = (
+				97FD5A4B1CACF88100C6BC3D /* ViewUtils.h */,
+				97FD5A4C1CACF88100C6BC3D /* ViewUtils.m */,
 				97FD5A181CACED6300C6BC3D /* AppDelegate.h */,
 				97FD5A191CACED6300C6BC3D /* AppDelegate.m */,
 				97FD5A1B1CACED6300C6BC3D /* ViewController.h */,
 				97FD5A1C1CACED6300C6BC3D /* ViewController.m */,
+				97FD5A541CAD0B2F00C6BC3D /* DoubleScrollViewController.h */,
+				97FD5A551CAD0B2F00C6BC3D /* DoubleScrollViewController.m */,
+				97FD5A4F1CACFD1100C6BC3D /* TopView.h */,
+				97FD5A501CACFD1100C6BC3D /* TopView.m */,
+				97FD5A511CACFD1100C6BC3D /* TopView.xib */,
+				97FD5A481CACF2CD00C6BC3D /* CollectionViewController.h */,
+				97FD5A491CACF2CD00C6BC3D /* CollectionViewController.m */,
 				97FD5A1E1CACED6300C6BC3D /* Main.storyboard */,
 				97FD5A211CACED6300C6BC3D /* Assets.xcassets */,
 				97FD5A231CACED6300C6BC3D /* LaunchScreen.storyboard */,
@@ -118,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				97FD5A161CACED6300C6BC3D /* main.m */,
+				97FD5A4E1CACF8B500C6BC3D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -203,7 +228,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "cncn-T091";
+				ORGANIZATIONNAME = Jaosn;
 				TargetAttributes = {
 					97FD5A111CACED6300C6BC3D = {
 						CreatedOnToolsVersion = 7.2;
@@ -245,6 +270,7 @@
 			files = (
 				97FD5A251CACED6300C6BC3D /* LaunchScreen.storyboard in Resources */,
 				97FD5A221CACED6300C6BC3D /* Assets.xcassets in Resources */,
+				97FD5A531CACFD1100C6BC3D /* TopView.xib in Resources */,
 				97FD5A201CACED6300C6BC3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97FD5A521CACFD1100C6BC3D /* TopView.m in Sources */,
+				97FD5A561CAD0B2F00C6BC3D /* DoubleScrollViewController.m in Sources */,
+				97FD5A4A1CACF2CD00C6BC3D /* CollectionViewController.m in Sources */,
+				97FD5A4D1CACF88100C6BC3D /* ViewUtils.m in Sources */,
 				97FD5A1D1CACED6300C6BC3D /* ViewController.m in Sources */,
 				97FD5A1A1CACED6300C6BC3D /* AppDelegate.m in Sources */,
 				97FD5A171CACED6300C6BC3D /* main.m in Sources */,
@@ -413,9 +443,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestStickyHeaderInMultipleLayoutCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = TestStickyHeaderInMultipleLayoutCollection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cncn.TestStickyHeaderInMultipleLayoutCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestStickyHeaderInMultipleLayoutCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +456,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestStickyHeaderInMultipleLayoutCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = TestStickyHeaderInMultipleLayoutCollection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cncn.TestStickyHeaderInMultipleLayoutCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestStickyHeaderInMultipleLayoutCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +532,7 @@
 				97FD5A411CACED6300C6BC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97FD5A421CACED6300C6BC3D /* Build configuration list for PBXNativeTarget "TestStickyHeaderInMultipleLayoutCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +541,7 @@
 				97FD5A441CACED6300C6BC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97FD5A451CACED6300C6BC3D /* Build configuration list for PBXNativeTarget "TestStickyHeaderInMultipleLayoutCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +550,7 @@
 				97FD5A471CACED6300C6BC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
