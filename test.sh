@@ -1,0 +1,1 @@
+xcodebuild -project TestStickyHeaderInMultipleLayoutCollection.xcodeproj -scheme TestStickyHeaderInMultipleLayoutCollectionTests -sdk iphonesimulator9.2 -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' clean test
