@@ -20,6 +20,34 @@
                ReferencedContainer = "container:TestStickyHeaderInMultipleLayoutCollection.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "97FD5A2A1CACED6300C6BC3D"
+               BuildableName = "TestStickyHeaderInMultipleLayoutCollectionTests.xctest"
+               BlueprintName = "TestStickyHeaderInMultipleLayoutCollectionTests"
+               ReferencedContainer = "container:TestStickyHeaderInMultipleLayoutCollection.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "97FD5A351CACED6300C6BC3D"
+               BuildableName = "TestStickyHeaderInMultipleLayoutCollectionUITests.xctest"
+               BlueprintName = "TestStickyHeaderInMultipleLayoutCollectionUITests"
+               ReferencedContainer = "container:TestStickyHeaderInMultipleLayoutCollection.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +63,6 @@
                BlueprintIdentifier = "97FD5A2A1CACED6300C6BC3D"
                BuildableName = "TestStickyHeaderInMultipleLayoutCollectionTests.xctest"
                BlueprintName = "TestStickyHeaderInMultipleLayoutCollectionTests"
-               ReferencedContainer = "container:TestStickyHeaderInMultipleLayoutCollection.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "97FD5A351CACED6300C6BC3D"
-               BuildableName = "TestStickyHeaderInMultipleLayoutCollectionUITests.xctest"
-               BlueprintName = "TestStickyHeaderInMultipleLayoutCollectionUITests"
                ReferencedContainer = "container:TestStickyHeaderInMultipleLayoutCollection.xcodeproj">
             </BuildableReference>
          </TestableReference>
