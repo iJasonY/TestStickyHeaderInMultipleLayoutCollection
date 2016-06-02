@@ -1,0 +1,3 @@
+xcodebuild -workspace TestStickyHeaderInMultipleLayoutCollection.xcodeproj -scheme TestStickyHeaderInMultipleLayoutCollection archive -archivePath ./build/TestStickyHeaderInMultipleLayoutCollection.xcarchive && \
+rm -rf ./build/TestStickyHeaderInMultipleLayoutCollection.ipa && \
+xcodebuild -exportArchive -exportFormat ipa -archivePath build/TestStickyHeaderInMultipleLayoutCollection.xcarchive -exportPath build/TestStickyHeaderInMultipleLayoutCollection.ipa
